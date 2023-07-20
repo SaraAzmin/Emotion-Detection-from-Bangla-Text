@@ -1,0 +1,87 @@
+*****for unigram*****
+Do you want to apply POS-tagger? [Y/N]: y
+Running HMM POS Tagger
+Using Existing Pretrained Model for POS...
+length of doc = 4200
+Train data:  3780
+Test data:  420
+C:\Users\Sara\Anaconda3\envs\Sara\lib\site-packages\sklearn\externals\joblib\__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+['ভাল', 'লাগল'] happy
+['মিথ্যা', 'পরিচয়', 'ফেসবুক', 'চালা', 'তা', 'নিয়', 'আপনা', 'মতা', 'কি'] happy
+['হত্যর', 'বিচা', 'কর', 'পারনা', 'আর', 'এই', 'পুতুল', 'ভাং', 'বিচা', 'চা', 'কি'] happy
+['ছাত্রলীগ', 'এর', 'কাজ'] happy
+['তোমা', 'ভালোবাসি'] happy
+['হচ্ছ', 'পরীক্ষা', 'আমি', 'ফেল', 'করবো'] happy
+Naive Bayes with TF-idf:
+Accuracy = 0.7761904761904762
+Precision:  [0.81818182 0.77142857 0.75675676]
+Recall: [0.62790698 0.93913043 0.53846154]
+F1 Score:  [0.71052632 0.84705882 0.62921348]
+Confusion Matrix:
+['angry' 'happy' 'sad']
+[[ 54  22  10]
+ [  6 216   8]
+ [  6  42  56]]
+
+Process finished with exit code 0
+
+
+
+*****for bigram******
+Do you want to apply POS-tagger? [Y/N]: y
+Running HMM POS Tagger
+Using Existing Pretrained Model for POS...
+length of doc = 4200
+Train data:  3780
+Test data:  420
+C:\Users\Sara\Anaconda3\envs\Sara\lib\site-packages\sklearn\externals\joblib\__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+['ভাল', 'লাগল'] happy
+['মিথ্যা', 'পরিচয়', 'ফেসবুক', 'চালা', 'তা', 'নিয়', 'আপনা', 'মতা', 'কি'] happy
+['হত্যর', 'বিচা', 'কর', 'পারনা', 'আর', 'এই', 'পুতুল', 'ভাং', 'বিচা', 'চা', 'কি'] happy
+['ছাত্রলীগ', 'এর', 'কাজ'] happy
+['তোমা', 'ভালোবাসি'] happy
+['হচ্ছ', 'পরীক্ষা', 'আমি', 'ফেল', 'করবো'] happy
+Naive Bayes with TF-idf:
+Accuracy = 0.7857142857142857
+Precision:  [0.828125   0.76369863 0.84375   ]
+Recall: [0.61627907 0.96956522 0.51923077]
+F1 Score:  [0.70666667 0.85440613 0.64285714]
+Confusion Matrix:
+['angry' 'happy' 'sad']
+[[ 53  27   6]
+ [  3 223   4]
+ [  8  42  54]]
+
+Process finished with exit code 0
+
+
+****for trigram****
+Do you want to apply POS-tagger? [Y/N]: y
+Running HMM POS Tagger
+Using Existing Pretrained Model for POS...
+length of doc = 4200
+Train data:  3780
+Test data:  420
+C:\Users\Sara\Anaconda3\envs\Sara\lib\site-packages\sklearn\externals\joblib\__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+['ভাল', 'লাগল'] happy
+['মিথ্যা', 'পরিচয়', 'ফেসবুক', 'চালা', 'তা', 'নিয়', 'আপনা', 'মতা', 'কি'] happy
+['হত্যর', 'বিচা', 'কর', 'পারনা', 'আর', 'এই', 'পুতুল', 'ভাং', 'বিচা', 'চা', 'কি'] happy
+['ছাত্রলীগ', 'এর', 'কাজ'] happy
+['তোমা', 'ভালোবাসি'] happy
+['হচ্ছ', 'পরীক্ষা', 'আমি', 'ফেল', 'করবো'] happy
+Naive Bayes with TF-idf:
+Accuracy = 0.7738095238095238
+Precision:  [0.85964912 0.74013158 0.86440678]
+Recall: [0.56976744 0.97826087 0.49038462]
+F1 Score:  [0.68531469 0.84269663 0.62576687]
+Confusion Matrix:
+['angry' 'happy' 'sad']
+[[ 49  31   6]
+ [  3 225   2]
+ [  5  48  51]]
+
+Process finished with exit code 0
+

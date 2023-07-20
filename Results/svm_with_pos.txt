@@ -1,0 +1,21 @@
+Do you want to apply POS-tagger? [Y/N]: y
+Running HMM POS Tagger
+Using Existing Pretrained Model for POS...
+length of doc = 4200
+Train data:  3780
+Test data:  420
+
+SVM with Tf-idf: 
+Accuracy =  0.7166666666666667
+
+Confusion Matrix:
+['angry' 'happy' 'sad']
+[[ 53  17  16]
+ [ 19 191  20]
+ [ 18  29  57]]
+
+Precision:  [0.58888889 0.80590717 0.61290323]
+
+Recall:     [0.61627907 0.83043478 0.54807692]
+
+F1 Score:   [0.60227273 0.81798715 0.5786802 ]

@@ -1,0 +1,28 @@
+Running HMM POS Tagger
+Using Existing Pretrained Model for POS...
+
+
+length of doc = 4200
+Train data:  3780
+Test data:  420
+
+['ভাল', 'লাগল'] happy
+['মিথ্যা', 'পরিচয়', 'ফেসবুক', 'চালা', 'তা', 'নিয়', 'আপনা', 'মতা', 'কি'] happy
+['হত্যর', 'বিচা', 'কর', 'পারনা', 'আর', 'এই', 'পুতুল', 'ভাং', 'বিচা', 'চা', 'কি'] happy
+['ছাত্রলীগ', 'এর', 'কাজ'] happy
+['তোমা', 'ভালোবাসি'] happy
+['হচ্ছ', 'পরীক্ষা', 'আমি', 'ফেল', 'করবো'] happy
+
+Naive Bayes with TF-idf:
+Accuracy = 0.7333333333333333
+Precision:  [0.09090909 0.75853018 0.64285714]
+Recall: [0.09090909 0.96333333 0.16513761]
+F1 Score:  [0.09090909 0.84875184 0.26277372]
+
+
+
+Confusion Matrix:
+['angry' 'happy' 'sad']
+[[  1   8   2]
+ [  3 289   8]
+ [  7  84  18]]
